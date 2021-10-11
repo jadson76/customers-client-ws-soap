@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.3.0 
+Consulte <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
+Gerado em: 2021.10.11 às 12:03:28 PM BRT 
+
+  -->
+  <bindings xmlns:tns="http://jadson.com" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="com.jadson.customers.client.soap.wsdl"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="tns:GetCustomerDetailRequest">
+      <class ref="com.jadson.customers.client.soap.wsdl.GetCustomerDetailRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetCustomerDetailResponse">
+      <class ref="com.jadson.customers.client.soap.wsdl.GetCustomerDetailResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CustomerDetail">
+      <class ref="com.jadson.customers.client.soap.wsdl.CustomerDetail"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetAllCustomerDetailResponse">
+      <class ref="com.jadson.customers.client.soap.wsdl.GetAllCustomerDetailResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetAllCustomerDetailRequest">
+      <class ref="com.jadson.customers.client.soap.wsdl.GetAllCustomerDetailRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:DeleteCustomerRequest">
+      <class ref="com.jadson.customers.client.soap.wsdl.DeleteCustomerRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:DeleteCustomerResponse">
+      <class ref="com.jadson.customers.client.soap.wsdl.DeleteCustomerResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Status">
+      <typesafeEnumClass ref="com.jadson.customers.client.soap.wsdl.Status"/>
+    </bindings>
+  </bindings>
+</bindings>
